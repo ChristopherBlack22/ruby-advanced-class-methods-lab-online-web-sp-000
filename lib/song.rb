@@ -51,7 +51,7 @@ class Song
     song_name = artist_and_song[1]
     
     self.new_by_name(song_name)
-    artist_name= artist_and_song[0]
+    #artist_name= artist_and_song[0]
     #binding.pry 
   end 
 
