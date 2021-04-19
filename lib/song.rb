@@ -1,5 +1,3 @@
-require "pry"
-
 class Song
   attr_accessor :name, :artist_name
   @@all = []
@@ -52,7 +50,6 @@ class Song
     song = self.new_by_name(song_name)
     song.artist_name= artist_and_song[0]
     song 
-    binding.pry 
   end 
 
   def self.create_from_filename(filename)
